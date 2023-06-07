@@ -1,0 +1,266 @@
+
+
+
+
+h1,
+h3,
+h4,p {
+    padding: 0px;
+    margin: 0rem;
+    font-family: 'Nunito', sans-serif;
+    color: #00d7ff;
+   
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+.intro, .second, .third{
+    background-color:#f32b2b;
+    width: 50%;
+    padding: 1rem;
+}
+
+.fullbody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #10151a;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px 40px 0 0;
+}
+
+/*.intro p,
+h3 {
+    margin: 0rem;
+}*/
+.intro p{
+    margin-bottom: -0.3rem;
+    font-size: 2.8rem;
+}
+.intro h3{
+    font-size: 3.8rem;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second h4,
+input {
+    margin: 0.2rem;
+}
+
+
+.second input {
+    display: inline-block;
+    height: 1.9rem;
+    width: 15rem;
+    border-radius: 30px;
+    border: none;
+    padding: 5px 15px 5px ;
+
+}
+.second input:hover{
+    width: 15.2rem;
+    height: 2.1rem;
+}
+
+.third {
+    height: 3rem;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 40px 40px;
+ 
+}
+
+
+.play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #116877;
+    text-align: center;
+    height: 2.5rem;
+    width: 6rem;
+    border-radius: 15px;
+    font-family: 'Nunito', sans-serif;
+    color: #F0F0F0;
+    
+}
+.play:hover {
+    height: 2.8rem;
+    width: 6.2rem;
+}
+
+.third a {
+    text-decoration: none;
+    
+}
+
+
+/*background-color:#f32b2b;*/
+
+
+.First, .Second, .Third, .Fourth{
+    width: 50%;
+    padding: 1rem;
+    background-color: #4f4b4b;
+    border: 5px solid black;
+}
+.fullbody2 h1{
+    background-color: black;
+}
+.fullbody2 h3{
+    background-color: black;
+}
+
+.fullbody2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #10151a;
+}
+.First {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px 25px 0 0;
+}
+
+.Second {
+   border-top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Third {
+    display: flex;
+    border-top: 0;
+    justify-content: center;
+    align-items: center;
+}
+.Third div{
+    text-align: center;
+}
+
+.Fourth {
+    border-top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0 0 25px 25px;
+}
+
+.Third .UserChoiceDisplay,
+.CompChoiceDisplay {
+    height: 6rem;
+    width: 6rem;
+    border: solid black;
+    flex: 1;
+}
+.left, .middle, .right{
+    text-align: center;
+} 
+.left, .right{
+    border: 3px solid black;
+}
+
+.fullbody2 .middle{
+    margin-bottom: 2rem;
+}
+.scoreBoard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 6rem;
+    background-color: gray;
+    margin: auto;
+    margin-top: 0.2rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
+    color: #000000;
+    
+}
+.choiceboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
+    color: #000000;
+}
+.Fourth .ROCK, .PAPER, .SCISSORS{
+    background-color: black;
+    padding: 0.5rem;
+    height: 2.5rem;
+    border-radius: 16px;
+    border: 2px solid black;
+}
+.Fourth .ROCK:hover{
+    height: 2.7rem;
+}
+.Fourth .PAPER:hover{
+    height: 2.7rem;
+}
+.Fourth .SCISSORS:hover{
+    height: 2.7rem;
+}
+
+.Fourth .NR h1{
+    padding: 0.5rem;
+    border-radius: 17px;
+}
+.Fourth .NR h1:hover{
+    padding: 0.6rem;
+}
+
+.custom-prompt {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .prompt-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  

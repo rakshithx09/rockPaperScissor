@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="fullbody2">
+        <div class="middle">
+            <h1>Round</h1>
+            <div class="roundBoard scoreBoard" id="roundBoard">1</div>
+        </div>
+        <div class="First">
+            <h1>Score!</h1>
+        </div>
+
+        <div class="Second">
+            <div class="left">
+                <h1 class="User">User</h1>
+                <div class="scoreBoard" id="userboard">0</div>
+            </div>
+            <div class="resultb">
+                <h3 id="resultb">
+
+                </h3>
+            </div>
+            <div class="right">
+                <h1 class="Computer">Computer</h1>
+                <div class="scoreBoard" id="compboard">0</div>
+            </div>
+        </div>
+
+        <div class="Third">
+            <div class="UserChoiceDisplay">
+                <h3>Users Choice:</h3>
+                <h4 id="uschoice" class="choiceboard"></h4>
+            </div>
+            <div class="CompChoiceDisplay">
+                <h3>Computers Choice:</h3>
+                <h4 class="choiceboard" id="compchoice"></h4>
+            </div>
+        </div>
+
+        <div class="Fourth">
+            <div class="NR" id="NR">
+                <h1>Next Round</h1>
+            </div>
+        </div>
+
+
+
+
+
+        <div id="customPrompt" class="custom-prompt">
+            <div class="prompt-content">
+                <p>Enter your name:</p>
+                <input type="text" id="nameInput">
+                <button onclick="processInput()">OK</button>
+            </div>
+        </div>
+
+        <div id="customPrompt2" class="custom-prompt">
+            <div class="prompt-content">
+                <p id="name">Enter your name:</p>
+                <input type="number" id="numInput">
+                <button onclick="processInput2()">OK</button>
+            </div>
+        </div>
+
+        <div id="customPrompt3" class="custom-prompt">
+            <div class="prompt-content">
+                <p id="choice">Enter your Choice</p>
+                <button onclick="processInput31()" id="r">rock</button>
+                <button onclick="processInput32()" id="p">paper</button>
+                <button onclick="processInput33()" id="s">scissor</button>
+            </div>
+        </div>
+
+
+        <div id="customPromptID" class="custom-prompt">
+            <div class="prompt-content">
+                <h3>Game Over!</h3>
+                <h1 id="result"></h1>
+                
+            </div>
+        </div>
+
+    </div>
+    <script src="javascript.js" defer></script>
+
+</body>
+
+</html>
